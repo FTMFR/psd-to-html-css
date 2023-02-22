@@ -1,0 +1,316 @@
+.single {
+    width: 100%;
+    min-height: 100px;
+}
+
+.single .center {
+    width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.single .center .content {
+    width: 700px;
+    min-height: 100px;
+    margin: 30px 0;
+}
+
+.single .center .content .cover {
+    width: 700px;
+    min-height: 100px;
+}
+
+.single .center .content .cover img.bigCover {
+    width: 700px;
+    height: 150px;
+}
+
+.single .center .content .cover img.smallCover {
+    width: 120px;
+    height: 120px;
+    top: 70px;
+    right: 25px;
+    border: 3px solid #fff;
+}
+
+.single .center .content .cover .information {
+    width: 700px;
+    height: 110px;
+    margin: 10px 0 0 0;
+}
+
+.single .content .cover .information .header {
+    width: 698px;
+    height: 70px;
+    border: 1px solid #e1e1e1;
+}
+
+.single .content .cover .information .header h1 {
+    font-size: 18px;
+    margin: 20px 170px 0 0;
+}
+
+.single .cover .information .header p.price {
+    margin: 15px 0 0 10px;
+}
+
+.single .information .header p.price .finalyprice {
+    font-size: 22px;
+}
+
+.single .information .header p.price .finalyprice i {
+    font-size: 15px;
+}
+
+.single .cover .information .header a.btnBuy {
+    width: 120px;
+    height: 28px;
+    font-size: 15px;
+    margin: 20px 0 0 15px;
+}
+
+.single .content .cover .information .footer {
+    width: 700px;
+    height: 40px;
+}
+
+.single .cover .information .footer p.genre {
+    margin: 5px 10px 0 0;
+}
+
+.single .cover .information .footer p.date {
+    margin: 5px 20px 0 0;
+}
+
+.single .cover .information .footer .rate {
+    width: 115px;
+    height: 40px;
+    margin: 2px 0 0 10px;
+}
+
+.single .information .footer .rate .orange {
+    font-size: 22px;
+}
+
+.single .information .footer .rate .chart {
+    width: 60px;
+    height: 15px;
+    border: 1px solid #8b8b8b;
+    margin: 7px 0 0 0;
+}
+
+.single .footer .rate .chart .chartValue {
+    height: 10px;
+    margin: 2.5px;
+}
+
+.single .feature {
+    width: 700px;
+    min-height: 50px;
+}
+
+.single .feature ul li {
+    width: 163px;
+    min-height: 35px;
+    border: 1px solid #dfdfdf;
+    margin: 10px 5px;
+}
+
+.single .feature ul li::after {
+    width: 17px;
+    padding: 0 3px 3px 0;
+    height: 17px;
+    top: 8px;
+    right: 8px;
+}
+
+.single .feature ul li span {
+    font-size: 13px;
+    margin: 6px 35px 0 0;
+}
+
+.single .fullText {
+    width: 650px;
+    min-height: 50px;
+    padding: 24px;
+    margin: 0 0 10px 0;
+    border: 1px solid #dfdfdf;
+}
+
+.single .comments {
+    width: 698px;
+    min-height: 50px;
+    border: 1px solid #dfdfdf;
+}
+
+.single .comments .commentsHeader {
+    width: 698px;
+    height: 100px;
+    background: url(../images/bigComments.png) no-repeat right;
+}
+
+.single .comments .commentsHeader .icon {
+    width: 35px;
+    height: 33px;
+    margin: 33.5px 33.5px 0 0;
+    background: url(../images/Comments.png) no-repeat;
+}
+
+.single .comments .commentsHeader h6 {
+    width: 500px;
+    font-size: 18px;
+    margin: 28px 10px 0 0;
+}
+
+.single .comments .commentsHeader p {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+}
+
+.single .comments .commentsHeader span {
+    top: 40px;
+    left: 30px;
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+.single .comments .commentsList {
+    width: 698px;
+    min-height: 50px;
+}
+
+.single .comments .commentsList ul li {
+    width: 670px;
+    min-height: 50px;
+    margin: 15px 14px 10px 0;
+}
+
+.single .comments .commentsList ul li .commentText {
+    width: 650px;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.single .comments .commentsList ul li .commentText p.head {
+    width: 650px;
+}
+
+.single .comments .commentsList ul li .commentText p.head strong {
+    font-size: 17px;
+}
+
+.single .comments .commentsList ul li .commentText p.head span {
+    font-size: 17px;
+}
+
+.single .comments .commentsList ul li .commentText p.text {
+    width: 650px;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.single .comments .commentsList ul li p.response {
+    width: 650px;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.single .center .sideBar {
+    width: 300px;
+    min-height: 100px;
+    margin: 30px 24px 30px 0;
+}
+
+.single .center .sideBar .system {
+    width: 298px;
+    min-height: 100px;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .orange::after {
+    width: 122px;
+    height: 85px;
+    top: 25px;
+    right: 10px;
+}
+
+.single .center .sideBar .blue::after {
+    width: 122px;
+    height: 85px;
+    top: 25px;
+    right: 10px;
+}
+
+.single .center .sideBar .system .title {
+    width: 298px;
+    height: 100px;
+}
+
+.single .center .sideBar .orange .title p {
+    margin: 35px 140px 0 0;
+}
+
+.single .center .sideBar .blue .title p {
+    margin: 35px 140px 0 0;
+}
+
+.single .center .sideBar .system .list {
+    width: 298px;
+    min-height: 100px;
+}
+
+.single .center .sideBar .system .list ul li {
+    width: 268px;
+    height: 35px;
+    margin: 15px 15px 0 0;
+}
+
+.single .center .sideBar .system .list ul li:first-child {
+    margin: 11px 15px 0 0;
+}
+
+.single .sideBar .system .list ul li .subject {
+    width: 48px;
+    height: 35px;
+}
+
+.single .sideBar .system .list ul li .subject span {
+    font-size: 15px;
+    margin: 4px 0 0 5px;
+}
+
+.single .sideBar .system .list ul li .value {
+    width: 213px;
+    height: 33px;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 0 5px;
+}
+
+.single .sideBar .system .list ul li .value span {
+    font-size: 11px;
+    margin: 7px 0 0 5px;
+}
+
+.single .center .sideBar .namad {
+    width: 298px;
+    min-height: 100px;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .ads {
+    width: 298px;
+    min-height: 100px;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .ads a img {
+    width: 120px;
+    height: 240px;
+    margin: 15px 19.33px 0 0;
+}

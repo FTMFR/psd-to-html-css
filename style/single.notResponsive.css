@@ -1,0 +1,481 @@
+.single {
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.single .center {
+    width: 1024px;
+    min-height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.single .center .content {
+    width: 700px;
+    min-height: 100px;
+    overflow: hidden;
+    float: right;
+    margin: 30px 0;
+}
+
+.single .center .content .cover {
+    width: 700px;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single .center .content .cover img.bigCover {
+    width: 700px;
+    height: 150px;
+    float: right;
+}
+
+.single .center .content .cover img.smallCover {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+}
+
+.single .center .content .cover .information {
+    width: 700px;
+    height: 110px;
+    float: right;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+
+.single .content .cover .information .header {
+    width: 698px;
+    height: 70px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.single .content .cover .information .header h1 {
+    font-size: 18px;
+    float: right;
+    margin: 20px 170px 0 0;
+}
+
+.single .cover .information .header p.price {
+    float: left;
+    margin: 15px 0 0 10px;
+}
+
+.single .information .header p.price .disprice {
+    text-decoration: line-through;
+}
+
+.single .information .header p.price .finalyprice {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #27bec4;
+}
+
+.single .information .header p.price .finalyprice i {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.single .cover .information .header a.btnBuy {
+    width: 120px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: #27bec4;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 500ms;
+    float: left;
+    display: block;
+    margin: 20px 0 0 15px;
+}
+
+.single .cover .information .header a.btnBuy:hover {
+    background-color: #ff6a37;
+}
+
+.single .content .cover .information .footer {
+    width: 700px;
+    height: 40px;
+    background-color: #e1e1e1;
+}
+
+.single .cover .information .footer p.genre {
+    float: right;
+    margin: 5px 10px 0 0;
+}
+
+.single .cover .information .footer p.date {
+    float: right;
+    margin: 5px 20px 0 0;
+}
+
+.single .cover .information .footer .rate {
+    width: 115px;
+    height: 40px;
+    float: left;
+    margin: 2px 0 0 10px;
+}
+
+.single .cover .information .footer .rate p {
+    float: right;
+    direction: ltr;
+}
+
+.single .information .footer .rate .orange {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #ff6a37;
+}
+
+.single .information .footer .rate .chart {
+    width: 60px;
+    height: 15px;
+    float: left;
+    border: 1px solid #8b8b8b;
+    margin: 7px 0 0 0;
+    position: relative;
+}
+
+.single .footer .rate .chart .chartValue {
+    height: 10px;
+    margin: 2.5px;
+    background-color: #ff6a37;
+    float: left;
+}
+
+.single .feature {
+    width: 700px;
+    min-height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.single .feature ul {
+    list-style: none;
+}
+
+.single .feature ul li {
+    float: right;
+    width: 163px;
+    min-height: 35px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 10px 5px;
+    position: relative;
+}
+
+.single .feature ul li::after {
+    content: "✓";
+    width: 17px;
+    padding: 0 3px 3px 0;
+    height: 17px;
+    background-color: #ff6a37;
+    border-radius: 10px;
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+    top: 8px;
+    right: 8px;
+    display: block;
+}
+
+.single .feature ul li span {
+    font-size: 13px;
+    margin: 6px 35px 0 0;
+    display: block;
+}
+
+.single .fullText {
+    width: 650px;
+    min-height: 50px;
+    padding: 24px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    margin: 0 0 10px 0;
+    border: 1px solid #dfdfdf;
+}
+
+.single .comments {
+    width: 698px;
+    min-height: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    border: 1px solid #dfdfdf;
+}
+
+.single .comments .commentsHeader {
+    width: 698px;
+    height: 100px;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    background: url(../images/bigComments.png) no-repeat right;
+}
+
+.single .comments .commentsHeader .icon {
+    width: 35px;
+    height: 33px;
+    float: right;
+    margin: 33.5px 33.5px 0 0;
+    background: url(../images/Comments.png) no-repeat;
+}
+
+.single .comments .commentsHeader h6 {
+    width: 500px;
+    font-size: 18px;
+    font-weight: normal;
+    float: right;
+    margin: 28px 10px 0 0;
+}
+
+.single .comments .commentsHeader p {
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    color: #27bec4;
+    margin: 0 10px 0 0;
+}
+
+.single .comments .commentsHeader span {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    color: #e6e6e6;
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+.single .comments .commentsList {
+    width: 698px;
+    min-height: 50px;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+
+.single .comments .commentsList ul {
+    list-style: none;
+}
+
+.single .comments .commentsList ul li {
+    width: 670px;
+    min-height: 50px;
+    overflow: hidden;
+    float: right;
+    margin: 15px 14px 10px 0;
+}
+
+.single .comments .commentsList ul li .commentText {
+    width: 650px;
+    min-height: 50px;
+    overflow: hidden;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.single .comments .commentsList ul li .commentText p.head {
+    width: 650px;
+    float: right;
+}
+
+.single .comments .commentsList ul li .commentText p.head strong {
+    float: right;
+    color: #ff6a37;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.single .comments .commentsList ul li .commentText p.head span {
+    float: left;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.single .comments .commentsList ul li .commentText p.text {
+    width: 650px;
+    float: right;
+    font-size: 14px;
+    text-align: justify;
+    margin: 5px 0 0 0;
+}
+
+.single .comments .commentsList ul li p.response {
+    width: 650px;
+    float: right;
+    font-size: 14px;
+    text-align: justify;
+    margin: 5px 0 0 0;
+}
+
+.single .comments .commentsList ul li p.response strong {}
+
+.single .comments .commentsList ul li p.response strong {}
+
+.single .center .sideBar {
+    width: 300px;
+    min-height: 100px;
+    overflow: hidden;
+    float: left;
+    margin: 30px 24px 30px 0;
+}
+
+.single .center .sideBar .system {
+    width: 298px;
+    min-height: 100px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    position: relative;
+    float: right;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .orange::after {
+    width: 122px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    content: "";
+    background: url(../images/system.png) no-repeat;
+}
+
+.single .center .sideBar .blue::after {
+    width: 122px;
+    height: 85px;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    content: "";
+    background: url(../images/system2.png) no-repeat;
+}
+
+.single .center .sideBar .system .title {
+    width: 298px;
+    height: 100px;
+    float: right;
+}
+
+.single .center .sideBar .orange .title p {
+    margin: 35px 140px 0 0;
+    color: #ff6a37;
+}
+
+.single .center .sideBar .orange .title p span {
+    color: #ff6a37;
+}
+
+.single .center .sideBar .orange .title p strong {
+    color: #ff6a37;
+}
+
+.single .center .sideBar .blue .title p {
+    margin: 35px 140px 0 0;
+    color: #27bec4;
+}
+
+.single .center .sideBar .blue .title p span {
+    color: #27bec4;
+}
+
+.single .center .sideBar .blue .title p strong {
+    color: #27bec4;
+}
+
+.single .center .sideBar .system .list {
+    width: 298px;
+    min-height: 100px;
+    float: right;
+}
+
+.single .center .sideBar .system .list ul {
+    list-style: none;
+}
+
+.single .center .sideBar .system .list ul li {
+    width: 268px;
+    height: 35px;
+    float: right;
+    margin: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.single .center .sideBar .system .list ul li:first-child {
+    margin: 11px 15px 0 0;
+}
+
+.single .sideBar .system .list ul li .subject {
+    width: 48px;
+    height: 35px;
+    background-color: #aeaeae;
+    float: left;
+}
+
+.single .sideBar .system .list ul li .subject span {
+    color: #fff;
+    font-size: 15px;
+    direction: ltr !important;
+    text-align: left;
+    margin: 4px 0 0 5px;
+    display: block;
+}
+
+.single .sideBar .system .list ul li .value {
+    width: 213px;
+    height: 33px;
+    border: 1px solid #dfdfdf;
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+.single .sideBar .system .list ul li .value span {
+    font-size: 11px;
+    direction: ltr !important;
+    text-align: left;
+    display: block;
+    margin: 7px 0 0 5px;
+}
+
+.single .center .sideBar .namad {
+    width: 298px;
+    min-height: 100px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    position: relative;
+    float: right;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .ads {
+    width: 298px;
+    min-height: 100px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    margin: 0 0 20px 0;
+    position: relative;
+    float: right;
+    padding-bottom: 15px;
+}
+
+.single .center .sideBar .ads a img {
+    width: 120px;
+    height: 240px;
+    margin: 15px 19.33px 0 0;
+    float: right;
+}

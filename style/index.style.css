@@ -1,0 +1,276 @@
+.orders {
+    overflow: hidden;
+}
+
+.orders .center .obtns {
+    overflow: hidden;
+}
+
+.orders .center .obtns ul {
+    list-style: none;
+}
+
+.orders .center .obtns ul li {
+    float: right;
+}
+
+.orders .center .obtns ul li a {
+    display: block;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.orders .center .obtns ul li:first-child a {
+    margin-right: 0;
+}
+
+.orders .center .obtns ul li a.active {
+    position: relative;
+}
+
+.orders .center .obtns ul li a.active::after {
+    content: "";
+    position: absolute;
+}
+
+.orders .center .olist .groupBox {
+    position: relative;
+}
+
+.orders .center .olist .groupBox .next {
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+    z-index: 99999;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+}
+
+.orders .center .olist .groupBox .prev {
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+    z-index: 99999;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+.center .olist .groupBox .next .icon {
+    background: url(../images/btnSlider.png) no-repeat;
+    transform: rotate(180deg);
+}
+
+.center .olist .groupBox .prev .icon {
+    background: url(../images/btnSlider.png) no-repeat;
+}
+
+.orders .center .olist .groupBox ul {
+    list-style: none;
+}
+
+.orders .center .olist .groupBox ul li {
+    float: right;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.orders .center .olist .groupBox ul li .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.orders .olist .groupBox ul li .image .hoverBox {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    transition: 1s;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon {
+    display: block;
+    float: right;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.more {
+    display: block;
+    background: url(../images/more-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.addCard {
+    display: block;
+    background: url(../images/shop-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.like {
+    display: block;
+    background: url(../images/like-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i {
+    transition: 500ms;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon:hover i {
+    transform: scale(1.3);
+}
+
+.orders .center .olist .groupBox ul li a.title {
+    display: block;
+    overflow: hidden;
+}
+
+.orders .center .olist .groupBox ul li a.title h2 {
+    text-align: center;
+    transition: 500ms;
+}
+
+.orders .center .olist .groupBox ul li a.title:hover h2 {
+    color: #169096;
+}
+
+.orders .center .olist .groupBox ul li p {
+    overflow: hidden;
+    text-align: center;
+}
+
+.orders .center .olist .groupBox ul li p span.disprice {
+    color: #adadad;
+    text-decoration: line-through;
+}
+
+.orders .center .olist .groupBox ul li p span.price {
+    color: #27bec4;
+}
+
+.orders .center .olist .groupBox ul li a.motherIcon {
+    display: block;
+    float: right;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.more {
+    display: block;
+    background: url(../images/more-icon.png) no-repeat;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.addCard {
+    display: block;
+    background: url(../images/shop-icon.png) no-repeat;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.like {
+    display: block;
+    background: url(../images/like-icon.png) no-repeat;
+}
+
+.news {
+    overflow: hidden;
+}
+
+.news .center {
+    overflow: hidden;
+}
+
+.news {
+    overflow: hidden;
+}
+
+.news .center {
+    overflow: hidden;
+}
+
+.news .center .title {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    float: right;
+}
+
+.news .center .title .right {
+    float: right;
+}
+
+.news .center .title .right i {
+    display: block;
+    background: url(../images/news.png) no-repeat;
+    float: right;
+}
+
+.news .center .title .right h3 {
+    float: right;
+}
+
+.news .center .title .right h3 span {
+    color: #b2b2b2;
+}
+
+.news .center .title .right h3 strong {
+    color: #ff642f;
+}
+
+.news .center .title .right h5 {
+    float: right;
+    color: #b2b2b2;
+}
+
+.news .center .title a.more {
+    display: block;
+    float: left;
+    color: #a4a4a4;
+    cursor: pointer;
+}
+
+.news .center .list {
+    overflow: hidden;
+    float: right;
+}
+
+.news .center .list ul {
+    list-style: none;
+}
+
+.news .center .list ul li {
+    float: right;
+    overflow: hidden;
+}
+
+.news .center .list ul li:first-child {
+    margin: 0;
+}
+
+.news .center .list ul li img {
+    border-radius: 3px;
+    float: right;
+}
+
+.news .center .list ul li a {
+    display: block;
+    float: right;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.news .center .list ul li a h2 {
+    float: right;
+    font-weight: bold;
+}
+
+.news .center .list ul li a span {
+    display: block;
+    float: left;
+    background-color: #aaa;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    transition: 500ms;
+}
+
+.news .center .list ul li a:hover span {
+    background-color: #ff642f;
+    color: #fff;
+}
+
+.news .center .list ul li p {
+    float: right;
+    text-align: justify;
+    color: #a4a4a4;
+}

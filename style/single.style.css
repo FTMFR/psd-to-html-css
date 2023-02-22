@@ -1,0 +1,328 @@
+.single {
+    overflow: hidden;
+}
+
+.single .center {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.single .center .content {
+    overflow: hidden;
+    float: right;
+}
+
+.single .center .content .cover {
+    overflow: hidden;
+    position: relative;
+}
+
+.single .center .content .cover img.bigCover {
+    float: right;
+}
+
+.single .center .content .cover img.smallCover {
+    position: absolute;
+    border-radius: 15px;
+}
+
+.single .center .content .cover .information {
+    float: right;
+    overflow: hidden;
+}
+
+.single .content .cover .information .header {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.single .content .cover .information .header h1 {
+    float: right;
+}
+
+.single .cover .information .header p.price {
+    float: left;
+}
+
+.single .information .header p.price .disprice {
+    text-decoration: line-through;
+}
+
+.single .information .header p.price .finalyprice {
+    font-weight: bolder;
+    color: #27bec4;
+}
+
+.single .information .header p.price .finalyprice i {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.single .cover .information .header a.btnBuy {
+    border-radius: 10px;
+    background-color: #27bec4;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms;
+    float: left;
+    display: block;
+}
+
+.single .cover .information .header a.btnBuy:hover {
+    background-color: #ff6a37;
+}
+
+.single .content .cover .information .footer {
+    background-color: #e1e1e1;
+}
+
+.single .cover .information .footer p.genre {
+    float: right;
+}
+
+.single .cover .information .footer p.date {
+    float: right;
+}
+
+.single .cover .information .footer .rate {
+    float: left;
+}
+
+.single .cover .information .footer .rate p {
+    float: right;
+    direction: ltr;
+}
+
+.single .information .footer .rate .orange {
+    font-weight: bolder;
+    color: #ff6a37;
+}
+
+.single .information .footer .rate .chart {
+    float: left;
+    position: relative;
+}
+
+.single .footer .rate .chart .chartValue {
+    background-color: #ff6a37;
+    float: left;
+}
+
+.single .feature {
+    overflow: hidden;
+    position: relative;
+}
+
+.single .feature ul {
+    list-style: none;
+}
+
+.single .feature ul li {
+    float: right;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.single .feature ul li::after {
+    content: "✓";
+    background-color: #ff6a37;
+    border-radius: 10px;
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+    display: block;
+}
+
+.single .feature ul li span {
+    display: block;
+}
+
+.single .fullText {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.single .comments {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.single .comments .commentsHeader {
+    overflow: hidden;
+    float: right;
+    position: relative;
+    background: url(../images/bigComments.png) no-repeat right;
+}
+
+.single .comments .commentsHeader .icon {
+    float: right;
+    background: url(../images/Comments.png) no-repeat;
+}
+
+.single .comments .commentsHeader h6 {
+    font-weight: normal;
+    float: right;
+}
+
+.single .comments .commentsHeader p {
+    font-weight: bold;
+    float: right;
+    color: #27bec4;
+}
+
+.single .comments .commentsHeader span {
+    position: absolute;
+    color: #e6e6e6;
+}
+
+.single .comments .commentsList {
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+
+.single .comments .commentsList ul {
+    list-style: none;
+}
+
+.single .comments .commentsList ul li {
+    overflow: hidden;
+    float: right;
+}
+
+.single .comments .commentsList ul li .commentText {
+    overflow: hidden;
+    float: right;
+    background-color: #f5f5f5;
+}
+
+.single .comments .commentsList ul li .commentText p.head {
+    float: right;
+}
+
+.single .comments .commentsList ul li .commentText p.head strong {
+    float: right;
+    color: #ff6a37;
+    font-weight: bolder;
+}
+
+.single .comments .commentsList ul li .commentText p.head span {
+    float: left;
+    font-weight: bolder;
+}
+
+.single .comments .commentsList ul li .commentText p.text {
+    float: right;
+    text-align: justify;
+}
+
+.single .comments .commentsList ul li p.response {
+    float: right;
+    text-align: justify;
+}
+
+.single .center .sideBar {
+    overflow: hidden;
+    float: left;
+}
+
+.single .center .sideBar .system {
+    background-color: #fff;
+    position: relative;
+    float: right;
+}
+
+.single .center .sideBar .orange::after {
+    position: absolute;
+    content: "";
+    background: url(../images/system.png) no-repeat;
+}
+
+.single .center .sideBar .blue::after {
+    position: absolute;
+    content: "";
+    background: url(../images/system2.png) no-repeat;
+}
+
+.single .center .sideBar .system .title {
+    float: right;
+}
+
+.single .center .sideBar .orange .title p {
+    color: #ff6a37;
+}
+
+.single .center .sideBar .orange .title p span {
+    color: #ff6a37;
+}
+
+.single .center .sideBar .orange .title p strong {
+    color: #ff6a37;
+}
+
+.single .center .sideBar .blue .title p {
+    color: #27bec4;
+}
+
+.single .center .sideBar .blue .title p span {
+    color: #27bec4;
+}
+
+.single .center .sideBar .blue .title p strong {
+    color: #27bec4;
+}
+
+.single .center .sideBar .system .list {
+    float: right;
+}
+
+.single .center .sideBar .system .list ul {
+    list-style: none;
+}
+
+.single .center .sideBar .system .list ul li {
+    float: right;
+    overflow: hidden;
+}
+
+.single .sideBar .system .list ul li .subject {
+    background-color: #aeaeae;
+    float: left;
+}
+
+.single .sideBar .system .list ul li .subject span {
+    color: #fff;
+    direction: ltr !important;
+    text-align: left;
+    display: block;
+}
+
+.single .sideBar .system .list ul li .value {
+    float: left;
+}
+
+.single .sideBar .system .list ul li .value span {
+    direction: ltr !important;
+    text-align: left;
+    display: block;
+}
+
+.single .center .sideBar .namad {
+    background-color: #fff;
+    position: relative;
+    float: right;
+}
+
+.single .center .sideBar .ads {
+    background-color: #fff;
+    position: relative;
+    float: right;
+}
+
+.single .center .sideBar .ads a img {
+    float: right;
+}

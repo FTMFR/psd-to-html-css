@@ -1,0 +1,541 @@
+@import url(fontiran.css);
+/* لینک فایلی که وظیفه بارگذاری فونت ها را برعهده دارد */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0 none;
+    direction: rtl;
+    color: #898989;
+}
+
+body {
+    font-family: IRANSans !important;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea {
+    font-family: IRANSans !important;
+}
+
+header {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+header .center .menu {
+    float: right;
+}
+
+header .center .menu .item ul {
+    list-style-type: none;
+}
+
+header .center .menu .item ul li {
+    float: right;
+    position: relative;
+}
+
+header .center .menu .item ul li a {
+    display: block;
+    float: right;
+}
+
+header .center .menu .item ul li a h4 {
+    color: #27bec4;
+    text-align: center;
+    transition: 500ms;
+}
+
+header .center .menu .item ul li a h5 {
+    color: #646464;
+    text-align: center;
+}
+
+header .center .menu .item ul li::after {
+    content: "";
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+}
+
+header .center .menu .item ul li:last-child::after {
+    display: none;
+}
+
+header .center .menu .item ul li i.userIcon {
+    background-image: url(../images/userIcon.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+}
+
+header .center .menu .item ul li a:hover h4 {
+    color: #ff642f;
+}
+
+header .center .menu .search-box form {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    position: relative;
+}
+
+header .center .menu .search-box form::after {
+    content: "";
+    background-color: #c2c2c2;
+    position: absolute;
+}
+
+header .center .menu .search-box form input[type=search] {
+    float: right;
+    color: #c2c2c2;
+    background-color: #f5f5f5;
+}
+
+header .center .menu .search-box form input[type=submit] {
+    display: none;
+}
+
+header .center .menu .search-box form label {
+    display: block;
+    background: url(../images/searchIcon.png) no-repeat;
+    float: left;
+}
+
+header .center .header-box {
+    float: left;
+}
+
+header .center .header-box a.contact {
+    display: block;
+    float: right;
+}
+
+header .center .header-box a.contact i.icon {
+    display: block;
+    background: url(../images/phone.png);
+    transition: 500ms;
+}
+
+header .center .header-box a.contact h4 {
+    color: #ff642f;
+    text-align: center;
+    transition: 500ms;
+}
+
+header .center .header-box a.contact h6 {
+    color: #a3a3a3;
+    text-align: center;
+    transition: 500ms;
+}
+
+header .center .header-box a.buyBag {
+    border-right: 1px solid rgb(221, 221, 221);
+    display: block;
+    float: right;
+}
+
+header .center .header-box a.buyBag i.icon {
+    display: block;
+    background: url(../images/buyBag.png);
+    transition: 500ms;
+}
+
+header .center .header-box a.buyBag strong {
+    color: #a3a3a3;
+    text-align: center;
+    display: block;
+    transition: 500ms;
+}
+
+header .center .header-box a.buyBag strong i {
+    background-color: #ff642f;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    transition: 500ms;
+}
+
+header .center .header-box a.buyBag span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #ff642f;
+    transition: 500ms;
+}
+
+header .center .header-box a.logo {
+    display: block;
+    float: right;
+}
+
+header .center .header-box a.logo img {
+    display: block;
+    transition: 500ms;
+    opacity: 0.6;
+}
+
+header .center .header-box a.contact:hover i.icon {
+    transform: rotate(360deg);
+}
+
+header .center .header-box a.contact:hover h4 {
+    transform: scale(1.2);
+}
+
+header .center .header-box a.contact:hover h6 {
+    color: #888;
+}
+
+header .center .header-box a.buyBag:hover strong {
+    color: #888;
+}
+
+header .center .header-box a.buyBag:hover strong i {
+    background-color: #27bec4;
+    color: #fff;
+}
+
+header .center .header-box a.buyBag:hover span {
+    font-weight: bold;
+    color: #27bec4;
+}
+
+header .center .header-box a.logo:hover img {
+    opacity: 1;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider .center .right {
+    float: right;
+}
+
+.slider .center .right .slider-box {
+    overflow: hidden;
+}
+
+.slider .center .right .slider-box .btns {
+    float: right;
+}
+
+.center .right .slider-box .btns .btn-item {
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+.center .right .slider-box .btns .btn-item:hover {
+    opacity: 1;
+}
+
+.center .right .slider-box .btns .btn-item::after {
+    content: "";
+    background: url(../images/btnSlider.png) no-repeat;
+    position: absolute;
+}
+
+.center .right .slider-box .btns .active {
+    opacity: 1;
+}
+
+.center .right .slider-box .btns .active::after {
+    content: "";
+    background: url(../images/btnSliderActive.png) no-repeat;
+    position: absolute;
+}
+
+.center .right .slider-box .btns .btn-item h5 {
+    color: #27bec4;
+}
+
+.center .right .slider-box .btns .btn-item h6 {
+    color: #b9b9b9;
+    font-weight: normal;
+}
+
+.slider .center .right .slider-box .imgs {
+    width: 580px;
+    height: 280px;
+    float: right;
+}
+
+.slider .center .right .levels {
+    background-color: #fff;
+}
+
+.slider .center .right .levels ul {
+    list-style: none;
+}
+
+.slider .center .right .levels ul li {
+    float: right;
+    position: relative;
+}
+
+.slider .center .right .levels ul li i.icon-gift {
+    display: block;
+    background: url(../images/gift.png) no-repeat;
+    float: right;
+}
+
+.slider .center .right .levels ul li i.icon-pay {
+    display: block;
+    background: url(../images/pay.png) no-repeat;
+    float: right;
+}
+
+.slider .center .right .levels ul li i.icon-check {
+    display: block;
+    background: url(../images/check.png) no-repeat;
+    float: right;
+}
+
+.slider .center .right .levels ul li h5 {
+    float: right;
+}
+
+.slider .center .right .levels ul li p {
+    float: right;
+}
+
+.slider .center .right .levels ul li::after {
+    content: "";
+    background-color: #dfdfdf;
+    position: absolute;
+}
+
+.slider .center .right .levels ul li:last-child::after {
+    display: none;
+}
+
+.slider .center .left {
+    float: right;
+}
+
+.slider .center .left .ads {
+    background-color: #fff;
+    float: right;
+}
+
+.slider .center .left .ads a {
+    transition: 500ms;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.slider .center .left .ads a:hover {
+    opacity: 1;
+}
+
+.slider .center .left .newslatter {
+    background-color: #27bec4;
+    float: right;
+}
+
+.slider .center .left .newslatter img {
+    float: right;
+}
+
+.slider .center .left .newslatter p {
+    text-align: center;
+    color: white;
+}
+
+.slider .center .left .newslatter form {
+    border-radius: 5px;
+    background-color: #29aeb4;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .center .left .newslatter form input[type=email] {
+    background-color: #29aeb4;
+    float: right;
+    direction: ltr;
+    color: #fff;
+}
+
+.slider .center .left .newslatter form input[type=email]::placeholder {
+    color: #fff;
+}
+
+.slider .center .left .newslatter form input[type=submit] {
+    display: none;
+}
+
+.slider .center .left .newslatter label {
+    display: block;
+    background-color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.slider .center .left .newslatter form::after {
+    position: absolute;
+    background-color: #169096;
+    content: "";
+}
+
+.slider .center .left .newslatter form::before {
+    position: absolute;
+    content: "";
+    background: url(../images/packet.png) no-repeat;
+}
+
+.line {
+    background: url(../images/line-bg.png) repeat;
+    position: relative;
+}
+
+.gifts {
+    overflow: hidden;
+}
+
+.gifts .center {
+    overflow: hidden;
+}
+
+.gifts ul {
+    list-style: none;
+}
+
+.gifts ul li {
+    background-color: #fff;
+    box-shadow: 0 0 3px 0 rgb(122, 122, 122);
+    float: right;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.gifts ul li .image {
+    float: right;
+    overflow: hidden;
+}
+
+.gifts ul li .text {
+    float: right;
+    overflow: hidden;
+}
+
+.gifts ul li .text a.title {
+    display: block;
+}
+
+.gifts ul li .text a.title h2 {
+    text-align: center;
+    transition: 500ms;
+}
+
+.gifts ul li .text a.title:hover h2 {
+    color: #cb532a;
+}
+
+.gifts ul li .text p strong {
+    color: #aaa;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.gifts ul li .text p span {
+    color: #cb532a;
+    font-weight: bold;
+}
+
+.gifts ul li .text a.motherIcon {
+    display: block;
+    float: right;
+}
+
+.gifts ul li .text a.motherIcon i.more {
+    display: block;
+    background: url(../images/more-icon.png) no-repeat;
+}
+
+.gifts ul li .text a.motherIcon i.addCard {
+    display: block;
+    background: url(../images/shop-icon.png) no-repeat;
+}
+
+.gifts ul li .text a.motherIcon i.like {
+    display: block;
+    background: url(../images/like-icon.png) no-repeat;
+}
+
+.title-gift {
+    z-index: 99999;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    position: absolute;
+}
+
+.title-gift i {
+    background: url(../images/gift2.png) no-repeat;
+    display: block;
+    float: right;
+}
+
+.title-gift h4 {
+    float: right;
+    color: #ff642f;
+}
+
+footer {
+    overflow: hidden;
+}
+
+footer .center {
+    overflow: hidden;
+}
+
+footer .center .right {
+    overflow: hidden;
+    float: right;
+}
+
+footer .center .right ul {
+    list-style: none;
+}
+
+footer .center .right ul li {
+    float: right;
+    position: relative;
+}
+
+footer .center .right ul li a {
+    display: block;
+    transition: 500ms;
+}
+
+footer .center .right ul li:first-child a {
+    display: block;
+}
+
+footer .center .right ul li a:hover {
+    color: #cb532a;
+}
+
+footer .center .right ul li:after {
+    position: absolute;
+    content: "";
+    background-color: #868686;
+    transform: rotate(20deg);
+}
+
+footer .center .right ul li:last-child:after {
+    display: none;
+}
+
+footer .center .right p {
+    float: right;
+}
+
+footer .center .left {
+    float: left;
+}

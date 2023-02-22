@@ -1,0 +1,427 @@
+.orders {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.orders .center {
+    width: 1024px;
+    margin: 300px;
+    margin: 0 auto;
+}
+
+.orders .center .obtns {
+    width: 1024px;
+    height: 28px;
+    overflow: hidden;
+}
+
+.orders .center .obtns ul {
+    list-style: none;
+}
+
+.orders .center .obtns ul li {
+    float: right;
+}
+
+.orders .center .obtns ul li a {
+    display: block;
+    min-width: 30px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    padding: 0 5px;
+    margin: 0 5px;
+    font-size: 10px;
+}
+
+.orders .center .obtns ul li:first-child a {
+    margin-right: 0;
+}
+
+.orders .center .obtns ul li a.active {
+    border: 1px solid #169096;
+    position: relative;
+}
+
+.orders .center .obtns ul li a.active::after {
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    border-top: 5px solid #169096;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.orders .center .olist {
+    width: 1024px;
+    height: 272px;
+}
+
+.orders .center .olist .groupBox {
+    width: 1024px;
+    height: 280px;
+    position: relative;
+}
+
+.orders .center .olist .groupBox .next {
+    width: 30px;
+    height: 80px;
+    top: 100px;
+    right: -15px;
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+    z-index: 99999;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+}
+
+.orders .center .olist .groupBox .prev {
+    width: 30px;
+    height: 80px;
+    top: 100px;
+    left: -15px;
+    background-color: #fff;
+    position: absolute;
+    overflow: hidden;
+    z-index: 99999;
+    box-shadow: 0 0 5px 0 rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+.center .olist .groupBox .next .icon {
+    width: 12px;
+    height: 21px;
+    background: url(../images/btnSlider.png) no-repeat;
+    margin: 29.5px 9px 0 0;
+    transform: rotate(180deg);
+}
+
+.center .olist .groupBox .prev .icon {
+    width: 12px;
+    height: 21px;
+    background: url(../images/btnSlider.png) no-repeat;
+    margin: 29.5px 9px 0 0;
+}
+
+.orders .center .olist .groupBox ul {
+    list-style: none;
+}
+
+.orders .center .olist .groupBox ul li {
+    float: right;
+    width: 194.8px;
+    height: 270px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+    background-color: #fff;
+    margin: 0 10px 0 0;
+}
+
+.orders .center .olist .groupBox ul li:first-child {
+    margin: 0 0 0 0;
+}
+
+.orders .center .olist .groupBox ul li .image {
+    width: 182.8px;
+    height: 180px;
+    margin: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+.orders .olist .groupBox ul li .image .hoverBox {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.70);
+    position: absolute;
+    bottom: 90px;
+    right: 91.4px;
+    transition: 1s;
+}
+
+.orders .olist .groupBox ul li .image:hover .hoverBox {
+    width: 182.8px;
+    height: 180px;
+    bottom: 0;
+    right: 0;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 80px 5px 0 0;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon1 {
+    margin: 80px 60px 0 0;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.more {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/more-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.addCard {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/shop-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i.like {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/like-icon.png) no-repeat;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon i {
+    transition: 500ms;
+}
+
+.olist .groupBox ul li .image .hoverBox .childIcon:hover i {
+    transform: scale(1.3);
+}
+
+.center .olist .groupBox ul li .image img {
+    width: 182.8px;
+    height: 180px;
+}
+
+.orders .center .olist .groupBox ul li a.title {
+    display: block;
+    width: 182.8px;
+    overflow: hidden;
+    margin: 0 6px;
+}
+
+.orders .center .olist .groupBox ul li a.title h2 {
+    font-size: 11px;
+    text-align: center;
+    transition: 500ms;
+}
+
+.orders .center .olist .groupBox ul li a.title:hover h2 {
+    color: #169096;
+}
+
+.orders .center .olist .groupBox ul li p {
+    width: 182.8px;
+    overflow: hidden;
+    margin: 0 6px;
+    text-align: center;
+}
+
+.orders .center .olist .groupBox ul li p span.disprice {
+    font-size: 11px;
+    color: #adadad;
+    text-decoration: line-through;
+}
+
+.orders .center .olist .groupBox ul li p span.price {
+    font-size: 11px;
+    color: #27bec4;
+}
+
+.orders .center .olist .groupBox ul li a.motherIcon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+.orders .center .olist .groupBox ul li a.motherIcon1 {
+    margin: 5px 66.4px 0 0;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.more {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/more-icon.png) no-repeat;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.addCard {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/shop-icon.png) no-repeat;
+}
+
+.orders .olist .groupBox ul li a.motherIcon i.like {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/like-icon.png) no-repeat;
+}
+
+.news {
+    width: 100%;
+    height: 285px;
+    overflow: hidden;
+}
+
+.news .center {
+    width: 1024px;
+    height: 285px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.news {
+    width: 100%;
+    height: 285px;
+    overflow: hidden;
+}
+
+.news .center {
+    width: 1024px;
+    height: 285px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.news .center .title {
+    width: 1022px;
+    height: 37px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    float: right;
+    border: 1px solid #e2e2e2;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.news .center .title .right {
+    width: 100px;
+    height: 37px;
+    float: right;
+}
+
+.news .center .title .right i {
+    width: 18px;
+    height: 18px;
+    display: block;
+    background: url(../images/news.png) no-repeat;
+    margin: 9.5px;
+    float: right;
+}
+
+.news .center .title .right h3 {
+    font-size: 12px;
+    float: right;
+    margin-top: 3px;
+}
+
+.news .center .title .right h3 span {
+    color: #b2b2b2;
+}
+
+.news .center .title .right h3 strong {
+    color: #ff642f;
+}
+
+.news .center .title .right h5 {
+    font-size: 9px;
+    float: right;
+    color: #b2b2b2;
+}
+
+.news .center .title a.more {
+    display: block;
+    float: left;
+    margin: 8px 0 0 9.5px;
+    color: #a4a4a4;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.news .center .list {
+    width: 1024px;
+    height: 235px;
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+}
+
+.news .center .list ul {
+    list-style: none;
+}
+
+.news .center .list ul li {
+    width: 248.5px;
+    height: 235px;
+    float: right;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+
+.news .center .list ul li:first-child {
+    margin: 0;
+}
+
+.news .center .list ul li img {
+    width: 246.5px;
+    height: 162px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    float: right;
+}
+
+.news .center .list ul li a {
+    display: block;
+    width: 248.5px;
+    height: 20px;
+    float: right;
+    transition: 500ms;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.news .center .list ul li a h2 {
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.news .center .list ul li a span {
+    display: block;
+    float: left;
+    min-width: 10px;
+    padding: 0 5px;
+    height: 17px;
+    background-color: #aaa;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+    transition: 500ms;
+}
+
+.news .center .list ul li a:hover span {
+    background-color: #ff642f;
+    border-bottom: 1px solid #cb532a;
+    color: #fff;
+}
+
+.news .center .list ul li p {
+    float: right;
+    font-size: 10px;
+    text-align: justify;
+    color: #a4a4a4;
+}
